@@ -1,0 +1,398 @@
+﻿html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color:#F7F2F2;
+ 
+  background: url(../Images/bg-body.jpg) no-repeat left top;
+ overflow-y:scroll;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button,
+input,
+select[multiple],
+textarea {
+  background-image: none;
+}
+
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+.aside {
+	width:26%;
+	float: right;
+    
+    background: #F7F2F2;
+	/*background: #ebe8d9;*/
+	margin-bottom: 30px;
+    margin-top:40px;
+	padding: 20px;
+    padding-right:0px;
+    padding-left:10px;
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 0 10px #629996;
+	-moz-box-shadow: 0 0 10px #629996;
+	-webkit-box-shadow: 0 0 10px #629996;
+}
+
+.asideCalendar {
+padding-right:20px;
+padding-left:10px;
+
+}
+
+.asideReminder {
+    overflow-y:scroll;
+    max-height:160px;
+
+
+}
+
+
+.main-content {
+
+    width:72%;
+   
+    float:left;
+    margin-top:40px;
+
+	position: relative;
+	
+    margin-bottom:10px;
+}
+
+.main-content1 {
+
+    width:100%;
+    min-height:100px;
+    background: #F7F2F2;
+    
+    padding:10px;
+
+    border-radius: 1px;
+	-moz-border-radius:1px;
+	-webkit-border-radius: 1px;
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 0 10px #629996;
+	-moz-box-shadow: 0 0 10px #629996;
+	-webkit-box-shadow: 0 0 10px #629996;
+    
+}
+
+#newWork {
+float:right;
+margin-bottom:1%;
+}
+
+#acount {
+            text-align:right;
+            margin-top:5px;
+            margin-bottom:4%;
+            
+
+        }
+
+.topMain {
+
+    margin:10px;
+
+}
+
+.add {
+
+    width:100%;
+    float:left;
+    margin-top:25px;
+
+     background: #F7F2F2;
+    
+    padding:10px;
+
+    border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 0 10px #629996;
+	-moz-box-shadow: 0 0 10px #629996;
+	-webkit-box-shadow: 0 0 10px #629996;
+    margin-bottom:10px;
+}
+
+ 
+
+
+
+
+#btnClose #Button11{
+    margin-top:40%;
+
+}
+
+input.button_add {
+    background-image: url(../Images/black_x_remove_delete_cross.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+             /* make this the size of your image */
+    float:right;
+    
+   
+}
+
+.modalBackground
+        {
+            background-color: Black;
+            filter: alpha(opacity=80);
+            opacity: 0.8;
+        }
+        .modalPopup
+        {
+            background: #FFF5F5;
+            box-shadow: 0 0 10px #629996;
+            -moz-box-shadow: 0 0 10px #629996;
+	        -webkit-box-shadow: 0 0 10px #629996;
+            height:350px;
+            width:380px;
+            padding: 0;
+        }
+        .modalPopup .header
+        {
+            background-color: #2FBDF1;
+            height: 30px;
+            color: White;
+            line-height: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .modalPopup .body
+        {
+            
+            padding:15px;
+            padding-right:0px;
+            
+        }
+
+        .popupPanel {
+    display:none;
+    padding:15px; 
+    height:250px;
+    width:380px;
+    position: relative; 
+    top: 20px; 
+    left: 200px; 
+    margin-top:550px;
+    z-index: 50; 
+    background: #FFF5F5;
+    box-shadow: 0 0 10px #629996;
+    -moz-box-shadow: 0 0 10px #629996;
+	-webkit-box-shadow: 0 0 10px #629996;
+}
+
+
+        
+        .modalPopupCalendar
+        {
+            
+            background-color: #FFF5F5;
+            box-shadow: 0 0 10px #629996;
+            -moz-box-shadow: 0 0 10px #629996;     
+            padding:0;
+            position:fixed;
+            left:425px;
+            top:-15px;
+           height: 125px; 
+           width: 225px;
+            
+        }
+       
+.modalPopupCalendar .calTitile {
+
+    text-align: center; 
+    font: bolder; 
+    background-color: #5D7B9D;
+     color: White;
+    font-weight: bold;
+    padding:0;
+}
+
+.modalPopupCalendar .calBody {
+    text-align:center;
+     padding-left: 3px;
+     padding-right: 3px;
+     padding-top:3px;
+
+}
+
+
+.modalPopup1
+        {
+            background: #FFF5F5;
+            box-shadow: 0 0 10px #629996;
+            -moz-box-shadow: 0 0 10px #629996;
+	        -webkit-box-shadow: 0 0 10px #629996;
+            height:350px;
+            width:480px;
+            padding: 0;
+        }
+        .modalPopup1 .header
+        {
+            background-color: #2FBDF1;
+            height: 30px;
+            color: White;
+            line-height: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .modalPopup1 .body
+        {
+            
+            padding:15px;
+            
+        }
+
+.btnDown {
+    float:right;
+    margin-right:37%;
+    margin-top:2%;
+
+}
+
+div.asideReminder::-webkit-scrollbar {
+width:6px;
+
+}
+
+
+
+div#pnl::-webkit-scrollbar {
+width:6px;
+
+}
+
+/* Track*/
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+ /*Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); 
+}
+
+div#pnl:hover::-webkit-scrollbar-track {
+   /* background: yellow;*/
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+}
+
+div#pnl:hover::-webkit-scrollbar-thumb {
+   /* background: yellow;*/
+    background: rgba(0,0,0,0.1); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+div.asideReminder:hover::-webkit-scrollbar-track {
+   /* background: yellow;*/
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+}
+
+div.asideReminder:hover::-webkit-scrollbar-thumb {
+   /* background: yellow;*/
+    background: rgba(0,0,0,0.1); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+
+/*Multiple file upload*/
+.fileUploadQueueItem {
+	font: 11px Verdana, Geneva, sans-serif;
+	background-color: #F5F5F5;
+	border: 3px solid #E5E5E5;
+	margin-top: 5px;
+	padding: 10px;
+	width: 270px;
+}
+.fileUploadQueueItem .cancel {
+	float: right;
+}
+.fileUploadProgress {
+	background-color: #FFFFFF;
+	border-top: 1px solid #808080;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #C5C5C5;
+	border-bottom: 1px solid #C5C5C5;
+	margin-top: 10px;
+	width: 100%;
+}
+.fileUploadProgressBar {
+	background-color: #0099FF;
+}
+
+
+.imm {
+width:25px;
+height:27px;
+padding:0px;
+margin:0px;
+margin-right:-5px;
+}
+
+.imag {
+
+   width:25px;
+height:27px;
+padding:0px;
+margin:0px;
+margin-right:-5px;
+}
+
+.description {
+margin-top:20%;
+
+}

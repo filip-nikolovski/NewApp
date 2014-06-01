@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="====.jpg">
+      <publishTime>09/04/2013 01:25:54</publishTime>
+    </File>
+    <File Include="Admin.aspx">
+      <publishTime>10/03/2013 19:23:09</publishTime>
+    </File>
+    <File Include="AdminUsers.aspx">
+      <publishTime>09/09/2013 23:08:59</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/Diplomska.dll">
+      <publishTime>06/01/2014 22:35:52</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>08/29/2013 00:18:14</publishTime>
+    </File>
+    <File Include="bin/Ionic.Zip.Reduced.dll">
+      <publishTime>01/18/2013 06:42:24</publishTime>
+    </File>
+    <File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>01/30/2013 16:00:58</publishTime>
+    </File>
+    <File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>02/07/2013 03:43:41</publishTime>
+    </File>
+    <File Include="Conference.aspx">
+      <publishTime>10/24/2013 03:35:04</publishTime>
+    </File>
+    <File Include="CreateIvent.aspx">
+      <publishTime>09/12/2013 03:59:45</publishTime>
+    </File>
+    <File Include="Download.aspx">
+      <publishTime>08/27/2013 16:57:52</publishTime>
+    </File>
+    <File Include="EditConf.aspx">
+      <publishTime>09/18/2013 17:44:05</publishTime>
+    </File>
+    <File Include="EditSW.aspx">
+      <publishTime>09/18/2013 17:42:17</publishTime>
+    </File>
+    <File Include="ErrorPage.aspx">
+      <publishTime>10/01/2013 15:45:01</publishTime>
+    </File>
+    <File Include="Events.aspx">
+      <publishTime>10/24/2013 02:29:15</publishTime>
+    </File>
+    <File Include="Files/0.jpg">
+      <publishTime>10/17/2013 16:30:09</publishTime>
+    </File>
+    <File Include="Files/01-motika.com.mk.jpg">
+      <publishTime>10/17/2013 16:30:09</publishTime>
+    </File>
+    <File Include="Files/01.jpg">
+      <publishTime>10/17/2013 16:30:09</publishTime>
+    </File>
+    <File Include="Files/1-Markantni-portreti-na-dzvezdite-nacratni-vo-tehnika-moliv-www.kafepauza.mk_.jpg">
+      <publishTime>10/17/2013 16:30:10</publishTime>
+    </File>
+    <File Include="Files/1D7406B0E92EBF5A2E18D762C2C0402C4310BD3F.jpg">
+      <publishTime>10/17/2013 16:30:10</publishTime>
+    </File>
+    <File Include="Files/1skopje 1928.jpg">
+      <publishTime>10/17/2013 16:30:10</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>10/25/2013 19:18:11</publishTime>
+    </File>
+    <File Include="ListingSW.aspx">
+      <publishTime>10/03/2013 20:06:22</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>10/02/2013 04:01:14</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/29/2013 00:18:30</publishTime>
+    </File>
+    <File Include="Popoup.aspx">
+      <publishTime>09/09/2013 21:02:05</publishTime>
+    </File>
+    <File Include="pr.aspx">
+      <publishTime>10/02/2013 19:32:30</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>10/25/2013 19:21:45</publishTime>
+    </File>
+    <File Include="RessetPassword.aspx">
+      <publishTime>10/26/2013 01:40:07</publishTime>
+    </File>
+    <File Include="scripts/bootstrap.min.js">
+      <publishTime>09/04/2013 01:52:58</publishTime>
+    </File>
+    <File Include="scripts/html5shiv.js">
+      <publishTime>09/04/2013 01:19:00</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.3.2.min.js">
+      <publishTime>10/18/2013 02:59:02</publishTime>
+    </File>
+    <File Include="scripts/jquery.js">
+      <publishTime>09/04/2013 01:52:58</publishTime>
+    </File>
+    <File Include="scripts/jquery.uploadify.js">
+      <publishTime>10/18/2013 02:58:59</publishTime>
+    </File>
+    <File Include="scripts/scrips.js">
+      <publishTime>10/24/2013 04:00:04</publishTime>
+    </File>
+    <File Include="scripts/uploader.fla">
+      <publishTime>10/18/2013 02:59:08</publishTime>
+    </File>
+    <File Include="scripts/uploader.swf">
+      <publishTime>10/18/2013 02:59:11</publishTime>
+    </File>
+    <File Include="Site1.Master">
+      <publishTime>09/18/2013 02:57:07</publishTime>
+    </File>
+    <File Include="style/bootstrap.css">
+      <publishTime>10/13/2013 17:37:50</publishTime>
+    </File>
+    <File Include="style/justified-nav.css">
+      <publishTime>09/16/2013 19:28:08</publishTime>
+    </File>
+    <File Include="style/loginStile.css">
+      <publishTime>09/15/2013 04:36:24</publishTime>
+    </File>
+    <File Include="style/non-responsive.css">
+      <publishTime>09/04/2013 02:21:57</publishTime>
+    </File>
+    <File Include="style/style.css">
+      <publishTime>10/24/2013 04:01:14</publishTime>
+    </File>
+    <File Include="Upload.ashx">
+      <publishTime>10/18/2013 18:48:01</publishTime>
+    </File>
+    <File Include="UserProfile.aspx">
+      <publishTime>10/26/2013 01:28:18</publishTime>
+    </File>
+    <File Include="Versions.aspx">
+      <publishTime>10/26/2013 01:55:41</publishTime>
+    </File>
+    <File Include="VersionSource.aspx">
+      <publishTime>06/01/2014 22:24:18</publishTime>
+    </File>
+    <File Include="VerziiAdmin.aspx">
+      <publishTime>10/03/2013 20:03:45</publishTime>
+    </File>
+    <File Include="ViewEvent.aspx">
+      <publishTime>10/16/2013 14:27:35</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/01/2014 22:35:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
