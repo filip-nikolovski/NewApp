@@ -97,7 +97,6 @@
     <Content Include="Conference.aspx" />
     <Content Include="CreateIvent.aspx" />
     <Content Include="Download.aspx" />
-    <Content Include="EditConf.aspx" />
     <Content Include="EditSW.aspx" />
     <Content Include="ErrorPage.aspx" />
     <Content Include="Events.aspx" />
@@ -170,13 +169,6 @@
     </Compile>
     <Compile Include="Download.aspx.designer.cs">
       <DependentUpon>Download.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="EditConf.aspx.cs">
-      <DependentUpon>EditConf.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EditConf.aspx.designer.cs">
-      <DependentUpon>EditConf.aspx</DependentUpon>
     </Compile>
     <Compile Include="EditSW.aspx.cs">
       <DependentUpon>EditSW.aspx</DependentUpon>

@@ -217,8 +217,8 @@
             </asp:CheckBoxList>
             <br />
             <br />
-            <input type="button" id="btnClose" onclick="hide1('corrA')" value=" Cancel " class="btn btn-primary"/>
-            &nbsp;<asp:Button ID="Button11" runat="server" Text="Button" OnClick="Button11_Click"  OnClientClick="return hide11('corrA')" class="btn btn-primary"/>
+            <input type="button" id="btnClose" onclick="hide1('corrA')" value="Cancel " class="btn btn-primary"/>
+            &nbsp;<asp:Button ID="Button11" runat="server" Text="Button"   OnClientClick="return hide11('corrA')" class="btn btn-primary"/>
             <br />
             <asp:Label ID="lblHidd" runat="server" Text="" Visible="true"></asp:Label>
 
