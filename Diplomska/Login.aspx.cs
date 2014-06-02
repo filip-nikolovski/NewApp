@@ -11,7 +11,7 @@ namespace Diplomska
 {
     public partial class Login : System.Web.UI.Page
     {
-        static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;";
+        static string connString = "SERVER=sql5.freemysqlhosting.net;DATABASE=sql542315;UID=sql542315;PWD=pW5!hL3%;";
         MySqlConnection conn = new MySqlConnection(connString);
 
         protected void Page_Load(object sender, EventArgs e)

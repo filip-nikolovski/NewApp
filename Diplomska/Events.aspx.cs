@@ -11,7 +11,8 @@ namespace Diplomska
 {
     public partial class Events : System.Web.UI.Page
     {
-        static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
+        //static string connString = "SERVER=localhost;DATABASE=naucen_trud;UID=root;PWD=filip;Allow Zero Datetime=True;";
+        static string connString = "SERVER=sql5.freemysqlhosting.net;DATABASE=sql542315;UID=sql542315;PWD=pW5!hL3%;Allow Zero Datetime=True;";
         MySqlConnection conn = new MySqlConnection(connString);
         protected DataSet dsHolidays;
 
