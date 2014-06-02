@@ -142,4 +142,3 @@ C:\Users\Filip\Documents\git\Diplomska\Diplomska\bin\ko\System.Spatial.resources
 C:\Users\Filip\Documents\git\Diplomska\Diplomska\bin\ru\System.Spatial.resources.dll
 C:\Users\Filip\Documents\git\Diplomska\Diplomska\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\Filip\Documents\git\Diplomska\Diplomska\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\Filip\Documents\git\Diplomska\Diplomska\obj\Debug\Diplomska.csprojResolveAssemblyReference.cache
